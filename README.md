@@ -1,24 +1,15 @@
-# README
+# Longin-backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このアプリケーションは、Rails 8 APIモード、DeviseTokenAuthによるトークン認証、Auth0連携したログイン機能を持つWeb APIです。
 
-Things you may want to cover:
+フロントエンド側と合わせて使用することで、ログイン機能を作成できます。
 
-* Ruby version
+以下に具体的な方法やポイントをまとめております。
 
-* System dependencies
+  [【Next.js】【Rails】ログイン画面とAPIを作ってみる①（Backend作成編）](https://zenn.dev/eeeee05/articles/132c18e354bded)
 
-* Configuration
+### 技術スタック
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby 3.4.4
+- Rails 8.0.3
+- SQLite3（デフォルトDB）
